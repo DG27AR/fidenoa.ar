@@ -1,0 +1,136 @@
+/*
+Theme Name: DG27-FIDENOA
+Theme URI: http://dg27.ar/wordpress
+Author: Diego Grassino
+Author URI: http://dg27.ar
+Description: Ligth Blue institutional theme designed exclusively for FIDENOA.
+Tags: blog, blue, white
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: Copyrigth FIDENOA 2020
+License URI: http://dg27.ar/wordpress
+Text Domain: DG27-FIDENOA
+*/
+
+/* Font Styles */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.font-open-sans {
+    font-family: "Open Sans", sans-serif;
+}
+
+.font-montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.font-roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Hero Styles */
+
+.hero-image {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("<?php bloginfo('template_url' ); ?>/../img/hero-original.jpg"); */
+    height: 92vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 576px) {
+    .hero-title {
+        font-size: 2.8em;
+    }
+
+    .hero-phrase {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .hero-title {
+        font-size: 3em;
+    }
+
+    .hero-phrase {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero-title {
+        font-size: 3.2em;
+    }
+
+    .hero-phrase {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hero-title {
+        font-size: 3.4em;
+    }
+
+    .hero-phrase {
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .hero-title {
+        font-size: 3.6em;
+    }
+
+    .hero-phrase {
+        font-size: 1.8em;
+    }
+}
+
+/* Short Info Card Styles */
+
+.welcome-custom {
+    font-size: 0.8em;
+}
+
+.short-info-card-justify {
+    text-align: justify;
+}
+
+.short-info-card-center {
+    text-align: center;
+}
+
+.short-info-card-img {
+    background-image: url(../img/dracristinabazan.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 30%;
+    min-height: 250px;
+}
+
+.short-info-sign {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+/* Footer Styles */
+
+.copyright {
+    font-size: 0.63em;
+}
